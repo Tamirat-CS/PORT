@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamirat Alemu · CS student portfolio</title>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Animated particle background -->
+  <div class="particles">
+    <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+    <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+    <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+  </div>
+
+  <!-- FIXED SIDEBAR – CV STYLE -->
+  <aside class="sidebar">
+    <div class="sidebar-content">
+      <!-- Profile image with circular ring animation -->
+      <div class="profile-ring">
+        <img src="assets/images/avatar.jpg" alt="Tamirat Alemu" class="profile-img" onerror="this.src='https://via.placeholder.com/130x130?text=👨🏾‍💻';">
+        <div class="ring"></div>
+      </div>
+      
+      <h1 class="glow-text">Tamirat Alemu</h1>
+      <span class="badge-title"><i class="fa-solid fa-graduation-cap"></i> Computer Science Student</span>
+      
+      <div class="greeting">👋 Hello, I'm Tamirat</div>
+      
+      <div class="short-bio glass">
+        <i class="fa-regular fa-star" style="color:#2563eb; margin-right:6px;"></i>
+        Front-End Developer & Web Enthusiast. I turn ideas into clean, creative code.
+      </div>
+
+      <!-- Contact details in CV format -->
+      <div class="contact-details glass">
+        <div class="contact-item"><i class="fa-regular fa-building-columns"></i> <strong>Department:</strong> Computer Science</div>
+        <div class="contact-item"><i class="fa-regular fa-location-dot"></i> <strong>Location:</strong> WKU, Ethiopia</div>
+        <div class="contact-item"><i class="fa-regular fa-envelope"></i> <strong>Email:</strong> <a href="mailto:tamish1219@gmail.com">tamish1219@gmail.com</a></div>
+        <div class="contact-item"><i class="fa-brands fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/Tamirat-CS" target="_blank">Tamirat-CS</a></div>
+        <div class="contact-item"><i class="fa-regular fa-phone"></i> <strong>Phone:</strong> <a href="tel:+251930909214">+251 930909214</a></div>
+      </div>
+
+      <!-- Social media links (bounce animation) -->
+      <div class="social-sidebar">
+        <a href="https://www.facebook.com/profile.php?id=100090683416813" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://t.me/Tame_Al29" target="_blank" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+        <a href="http://www.youtube.com/@Tamirat_Tubes" target="_blank" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+
+      <!-- CV download button (magnetic effect via CSS) -->
+      <a href="documents/CV.pdf/CV.pdf" class="btn-cv magnetic"><i class="fa-regular fa-file-pdf"></i> Download CV</a>
+      
+      <!-- Quick section links inside sidebar -->
+      <div class="section-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <p class="sidebar-footnote"><i class="fa-regular fa-briefcase"></i> My Work — featured below</p>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT (scrollable) -->
+  <main class="main-content">
+    <!-- Sticky top navigation buttons (glass) -->
+    <nav class="top-nav glass">
+      <a href="#about" class="nav-btn">About</a>
+      <a href="#skills" class="nav-btn">Skills</a>
+      <a href="#projects" class="nav-btn">Projects</a>
+      <a href="#contact" class="nav-btn">Contact</a>
+    </nav>
+
+    <!-- Hero section with second profile picture (circular with ring) -->
+    <div class="main-hero glass">
+  <div class="hero-ring-container">
+    <img src="assets/imageS/profile1.jpg" alt="Tamirat" class="hero-img" onerror="this.src='https://via.placeholder.com/140x140?text=👨🏾‍💻';">
+    <div class="hero-ring"></div>
+  </div>
+  <div class="main-hero-text">
+    <h2 class="glow-text">Welcome to my portfolio</h2>
+    <p>I'm Tamirat Alemu, a Computer Science student from Ethiopia. I build web experiences with clean code and creativity.</p>
+    <!-- NEW: Bold CV button -->
+    <a href="documents/CV.pdf/CV.pdf" class="btn-cv-large magnetic"><i class="fa-regular fa-file-pdf"></i> Download My CV</a>
+  </div>
+</div>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-text glass">
+        <p>I am a Computer Science student passionate about programming, web development and software engineering. I enjoy building modern websites and learning new technologies.</p>
+        <p>Currently focused on front-end development and creating user‑friendly interfaces. I love turning ideas into clean, efficient code.</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card glass"><i class="fa-brands fa-html5"></i><span>HTML</span><div class="skill-bar"><div class="skill-fill" style="width:90%">90%</div></div></div>
+        <div class="skill-card glass"><i class="fa-brands fa-css3-alt"></i><span>CSS</span><div class="skill-bar"><div class="skill-fill" style="width:85%">85%</div></div></div>
+        <div class="skill-card glass"><i class="fa-brands fa-js"></i><span>Javascript</span><div class="skill-bar"><div class="skill-fill" style="width:30%">30%</div></div></div>
+        <div class="skill-card glass"><i class="fa-brands fa-python"></i><span>Python</span><div class="skill-bar"><div class="skill-fill" style="width:60%">60%</div></div></div>
+        <div class="skill-card glass"><i class="fa-solid fa-database"></i><span>SQL</span><div class="skill-bar"><div class="skill-fill" style="width:65%">65%</div></div></div>
+        <div class="skill-card glass"><i class="fa-brands fa-react"></i><span>React</span><div class="skill-bar"><div class="skill-fill" style="width:50%">50%</div></div></div>
+      </div>
+    </section>
+
+    <!-- Projects Section – 2‑column grid -->
+    <section id="projects">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card glass">
+          <div class="project-img">
+            <img src="assets/images/project1.png" alt="Online Voting System" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'fa-regular fa-check-to-slot\'></i>';">
+          </div>
+          <div class="project-info">
+            <h3>Online Voting System</h3>
+            <p>Secure web-based electronic voting platform with user authentication and real-time results.</p>
+            <div class="project-features">
+              <span class="feature-badge"><i class="fa-regular fa-gauge-high"></i> Dashboard</span>
+              <span class="feature-badge"><i class="fa-regular fa-square-check"></i> Vote</span>
+              <span class="feature-badge"><i class="fa-regular fa-chart-bar"></i> View Results</span>
+              <span class="feature-badge"><i class="fa-regular fa-user-plus"></i> Sign Up</span>
+              <span class="feature-badge"><i class="fa-regular fa-arrow-right-from-bracket"></i> Logout</span>
+            </div>
+            <p class="project-desc">Includes registration/login, secure voting, and live result dashboard.</p>
+            <div class="project-links">
+              <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card glass">
+          <div class="project-img">
+            <img src="assets/images/project2.png" alt="Student Result System" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'fa-regular fa-table\'></i>';">
+          </div>
+          <div class="project-info">
+            <h3>Student Result Management System</h3>
+            <p>Complete system for managing high school student results, with report cards and analytics.</p>
+            <div class="project-features compact">
+              <span class="feature-badge"><i class="fa-regular fa-chart-pie"></i> Dashboard</span>
+              <span class="feature-badge"><i class="fa-regular fa-users"></i> Students</span>
+              <span class="feature-badge"><i class="fa-regular fa-right-to-bracket"></i> Login</span>
+            </div>
+            <div class="sample-table">
+              <table>
+                <tr><th>ID</th><th>Name</th><th>Class</th><th>Subject</th><th>Marks</th></tr>
+                <tr><td>1001</td><td>Ganet Tadesa</td><td>10</td><td>English</td><td>85</td></tr>
+                <tr><td>1002</td><td>Mikias Lema</td><td>10</td><td>Maths</td><td>92</td></tr>
+              </table>
+            </div>
+            <p class="project-desc">Total Students: 320 · Total Subjects: 8 · Grade calculator included.</p>
+            <div class="project-links">
+              <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card glass">
+          <div class="project-img">
+            <img src="assets/images/project3.jpg" alt="TaskFlow project" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'fa-regular fa-list-check\'></i>';">
+          </div>
+          <div class="project-info">
+            <h3>TaskFlow – Task Manager</h3>
+            <p>Organize daily tasks with categories, due dates, and progress tracking.</p>
+            <div class="project-features">
+              <span class="feature-badge"><i class="fa-regular fa-plus"></i> Add Task</span>
+              <span class="feature-badge"><i class="fa-regular fa-pen-to-square"></i> Edit</span>
+              <span class="feature-badge"><i class="fa-regular fa-trash-can"></i> Delete</span>
+              <span class="feature-badge"><i class="fa-regular fa-filter"></i> Filter</span>
+            </div>
+            <p class="project-desc">Built with pure HTML, CSS, and localStorage (demo uses static UI).</p>
+            <div class="project-links">
+              <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card glass">
+          <div class="project-img">
+            <img src="assets/images/project4.png" alt="Ethio-Weather project" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'fa-regular fa-cloud-sun\'></i>';">
+          </div>
+          <div class="project-info">
+            <h3>Ethio‑Weather</h3>
+            <p>Current weather and 5-day forecast for Ethiopian cities.</p>
+            <div class="project-features">
+              <span class="feature-badge"><i class="fa-regular fa-magnifying-glass"></i> Search</span>
+              <span class="feature-badge"><i class="fa-regular fa-droplet"></i> Humidity</span>
+              <span class="feature-badge"><i class="fa-regular fa-wind"></i> Wind</span>
+            </div>
+            <p class="project-desc">Uses OpenWeatherMap API (static demo, no actual API calls).</p>
+            <div class="project-links">
+              <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="contact-container glass">
+        <form class="contact-form" action="mailto:tamish1219@gmail.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary magnetic"><i class="fa-regular fa-paper-plane"></i> Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Tamirat Alemu — built with HTML & CSS only <i class="fa-regular fa-heart" style="color:#ef4444;"></i></p>
+  </footer>
+</body>
+</html>
