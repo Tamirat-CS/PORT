@@ -15,7 +15,6 @@ body {
   position: relative;
 }
 
-/* ===== PARTICLE BACKGROUND ===== */
 .particles {
   position: fixed;
   top: 0;
@@ -53,7 +52,6 @@ body {
   100% { transform: translateY(0) translateX(0); opacity: 0.3; background: #2563eb; }
 }
 
-/* ===== SIDEBAR ===== */
 .sidebar {
   position: fixed;
   top: 0;
@@ -314,7 +312,6 @@ body {
   opacity: 0.7;
 }
 
-/* ===== MAIN CONTENT ===== */
 .main-content {
   margin-left: 330px;
   width: calc(100% - 330px);
@@ -359,7 +356,6 @@ body {
   box-shadow: 0 6px 14px rgba(37, 99, 235, 0.4);
 }
 
-/* ===== HERO SECTION ===== */
 .main-hero {
   display: flex;
   align-items: center;
@@ -421,7 +417,6 @@ body {
   margin-bottom: 0.8rem;
 }
 
-/* ===== PURE CSS TYPING ANIMATION ===== */
 .typing-wrapper {
   margin: 0.8rem 0 1.2rem 0;
   min-height: 3.5rem;
@@ -551,7 +546,6 @@ body {
   box-shadow: 0 10px 20px -5px #2563eb;
 }
 
-/* ===== SECTION STYLES ===== */
 .section-title {
   font-size: 2.2rem;
   font-family: 'Playfair Display', serif;
@@ -591,7 +585,6 @@ body {
   line-height: 1.7;
 }
 
-/* ===== SKILLS ===== */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
@@ -666,7 +659,6 @@ body {
   100% { transform: translateX(100%); }
 }
 
-/* ===== PROJECTS ===== */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -792,7 +784,6 @@ body {
   color: #2563eb;
 }
 
-/* ===== CONTACT ===== */
 .contact-container {
   border-radius: 36px;
   padding: 2.2rem;
@@ -856,7 +847,6 @@ body {
   box-shadow: 0 12px 22px -8px #2563eb;
 }
 
-/* ===== FOOTER ===== */
 footer {
   margin-left: 330px;
   background: rgba(15, 23, 42, 0.8);
@@ -867,7 +857,6 @@ footer {
   color: #94a3b8;
 }
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 950px) {
   .sidebar {
     width: 280px;
